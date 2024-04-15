@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "to do list",
+  "name": "to do list criada com React.js e MongoDB utilizando Node.js",
   "icons": [
     {
       "src": "/todoList.ico",
