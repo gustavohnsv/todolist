@@ -15,9 +15,10 @@
 
 <p style="font-size:16px; text-align:justify"> O projeto consiste em uma "to do list", onde é possível observar ao lado esquerdo um pequeno formulário que contém os campos para adicionar uma nova tarefa, bem como o botão de enviar e os botões de filtro. Já na parte esquerda, temos as anotações em forma de card, que contém a cor de fundo, sendo os cards em vermelho os que possuem maior prioridade, as informações (possuindo o conteúdo editável) e botões para mudar a prioridade excluir a tarefa </p>
 
-# 🔗 API do projeto
+# 🔗 Links do projeto
 
 <li><a href="https://github.com/gustavohnsv/api-todolist" style="font-size:16px"> Repositório da API no Github</a>
+<li><a href="https://{something}-gustavohnsv-todolist.netlify.app/" style="font-size:16px"> Link para o site (Não disponível publicamente)</a>
 
 # 🔎 Observações
 
