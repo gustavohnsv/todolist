@@ -1,0 +1,13 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#F1F1F1, #F2F2F2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')

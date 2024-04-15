@@ -1,0 +1,279 @@
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.mainleft-form {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #FFF;
+}
+
+.mainleft-form strong {
+    letter-spacing: 1px;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainleft-form label {
+    width: 80%;
+    text-align: left;
+    margin: 5%;
+}
+
+.mainleft-form input {
+    width: 80%;
+    height: 20px;
+    outline: none;
+    font-size: 16px;
+    padding: 2%;
+    border: 0;
+    border-bottom: 2px solid #dbcbcb;
+}
+
+.mainleft-form input::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.mainleft-form textarea {
+    resize: none;
+    width: 80%;
+    height: 100px;
+    outline: none;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 2px solid #dbcbcb;
+}
+
+.mainleft-form button {
+    width: 50%;
+    height: 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.mainleft-form-radiobtn {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mainleft-form-radiobtn label {
+    font-size: 12px;
+}
+
+.mainright {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    justify-items: center;
+}
+
+.mainright span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainright-card {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background: #FFF;
+    margin: 20px;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.75s;
+}
+
+.card-left {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-left label {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2%;
+}
+
+.card-left textarea {
+    height: 100%;
+    resize: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 2%;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.card-left p {
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 2%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+.card-right {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 2%;
+}
+
+.card-right button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+
+.card-right span {
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.card-right span:hover {
+    transform: scale(1.1);
+    color: #ff3535;
+    transform: 0.5s;
+}
+
+.priority {
+    transition: 0.75s;
+    background: #ff3434;
+}
+
+.priority label{
+    color: #FFF;
+}
+
+.priority textarea{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.priority p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.priority span{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.priority span:hover {
+    color: #000;
+}
+
+@media (max-width: 1370px) {
+    
+    .form {
+        padding: 2%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainleft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mainleft-form {
+        width: 700px;
+        height: 500px;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .form {
+        height: auto;
+    }
+
+    .mainleft {
+        width: 100%;
+    }
+
+    .mainleft-form {
+        width: 500px;
+        border-radius: 5px;
+    }
+
+    .mainright-card {
+        width: 150px;
+        padding: 3%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .mainleft {
+        width: 100vw;
+    }
+
+    .mainleft-form {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .mainright {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .mainright-card {
+        width: 80%;
+    }
+
+}
